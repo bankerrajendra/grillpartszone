@@ -1,0 +1,1 @@
+<a class="add-to-with-list-part-box" id="add-to-with-list-part-box-{{$part_id}}" href="javascript:void(0);" data-part-id="{{$part_id}}" data-brand-id="{{$brand_id}}" @if($in_wish_list) data-tip="Remove from Wishlist" @else data-tip="Add to Wishlist" @endif><i @if($in_wish_list) class="fa fa-heart" @else class="fa fa-heart-o" @endif></i></a>
